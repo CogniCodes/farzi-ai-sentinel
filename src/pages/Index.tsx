@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import FeatureCard from "@/components/FeatureCard";
+import Header from "@/components/Header";
 import aiBotHero from "@/assets/ai-bot-hero.png";
 
 const Index = () => {
   return (
     <div className="min-h-screen hero-section">
+      <Header />
       {/* Hero Section */}
       <main className="container mx-auto px-4 py-16 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
