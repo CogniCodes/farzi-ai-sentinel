@@ -21,10 +21,10 @@ const Header = () => {
               Home
             </a>
             <a 
-              href="#" 
+              href="#about" 
               className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
             >
-              Features
+              About
             </a>
             <a 
               href="#" 
@@ -36,19 +36,7 @@ const Header = () => {
               href="#" 
               className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
             >
-              About
-            </a>
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
-            >
               Settings
-            </a>
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
-            >
-              Contact Us
             </a>
           </div>
 

@@ -75,7 +75,7 @@ const Index = () => {
           </div>
 
           {/* Description Section */}
-          <div className="max-w-2xl mx-auto mb-20">
+          <div id="about" className="max-w-2xl mx-auto mb-20">
             <h2 className="font-playfair text-3xl font-semibold mb-6 text-foreground">
               Your complete solution to AI detection
             </h2>
