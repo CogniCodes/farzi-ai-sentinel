@@ -41,7 +41,7 @@ const Index = () => {
           </div>
 
           {/* Features Grid */}
-          <div id="features" className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+          <div id="features" className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             <FeatureCard
               icon="📷"
               title="Photos"
@@ -51,11 +51,6 @@ const Index = () => {
               icon="🎬"
               title="Video"
               description="Analyze video content for artificial elements"
-            />
-            <FeatureCard
-              icon="🎵"
-              title="Audio"
-              description="Identify synthetic voice and audio"
             />
             <FeatureCard
               icon="📝"
@@ -82,7 +77,7 @@ const Index = () => {
             <p className="text-lg text-muted-foreground leading-relaxed font-inter">
               Farzi is a comprehensive AI detection platform that supports multiple media types. 
               With industry-leading accuracy, we help you identify artificial content across 
-              photos, videos, audio, and text with confidence.
+              photos, videos, and text with confidence.
             </p>
           </div>
         </div>
