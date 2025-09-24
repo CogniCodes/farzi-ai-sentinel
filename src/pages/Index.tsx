@@ -41,7 +41,7 @@ const Index = () => {
           </div>
 
           {/* Features Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+          <div id="features" className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             <FeatureCard
               icon="📷"
               title="Photos"

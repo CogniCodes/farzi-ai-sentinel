@@ -21,6 +21,12 @@ const Header = () => {
               Home
             </a>
             <a 
+              href="#features" 
+              className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
+            >
+              Features
+            </a>
+            <a 
               href="#about" 
               className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
             >
@@ -30,13 +36,7 @@ const Header = () => {
               href="#" 
               className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
             >
-              Pricing
-            </a>
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors duration-200 font-inter font-medium"
-            >
-              Settings
+              Contact Us
             </a>
           </div>
 
